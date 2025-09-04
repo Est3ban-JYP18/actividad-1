@@ -1,20 +1,16 @@
-def multiplicacion (num1 ,num2):
-    return num1 * num2
+def multiplicacion(num1, num2):
     
-def main () :
-    print ("multiplicacion") 
+return  num1 * num2
 
-def division (num1, num2):
-    return num1 / num2
+def division(num1, num2):
+return num1 / num2
 
-def main () :
-    print ("division")
+elif opcion == "3":
+n1 = int(input("Número 1: "))
+n2 = int(input("Número 2: "))
+print("Resultado:", multiplicacion(n1, n2))
 
-num1 = int(input("digite numero 1 :"))
-num2 = int(input("digite numero 2 :"))
-
-resultado = multiplicacion(num1, num2)
-print("el resultado es: ", resultado)
-
-resultado= division(num1, num2)
-print("el resultado es: ", resultado)
+elif opcion == "4":
+n1 = int(input("Número 1: "))
+n2 = int(input("Número 2: "))
+print("Resultado:", division(n1, n2))
